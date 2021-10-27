@@ -1,0 +1,9 @@
+<div class="mainImageContainer">
+    <div #divIntersectContainer class="intersectContainer">
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+
+        <progress #imageProgress value="0" max="100" class="hidden"></progress>
+    </div>
+    <!-- <p>image-loader works!</p> -->
+    <img style="width:500px;" #imageEl class="hidden" [attr.data-imageSrc]="imageSource"/>
+</div>
